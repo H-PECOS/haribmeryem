@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+       
+        <!--SOCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#https://web.facebook.com/meryem.harib/" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#https://www.linkedin.com/in/meryem-harib-85234b204/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CV</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">À PROPOS</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">“The first step towards getting somewhere is to decide you're not going to stay where you are.” — J.P. Morgan</p>
+            <p></p>
+          </div>
+
+          <!--À PROPOS SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">À PROPOS</h2>
+            <p class="w3-margin-top-2"> 
+              Je suis MERYEM HARIB, j'ai 21 ans. Je suis couramment étudiante en 3ème année cycle d'ingénieur à l'IAV Hassan II, filière des sciences géomatiques et ingénierie topogrphique
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">CURRICULUM VITAE</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">CURSUS SCOLAIRE</h3>
+                <h4>Baccalauréat Sciences Matématiques A - Option Français</h4>
+                <p>2018</p>
+                <h4>Classes préparatoires aux Grandes Écoles</h4>
+                <p>2018-2020</p>
+                <h4>IAV Hassan II - Filière des Sciences Géomatiques et Ingénierie Topographique</h4>
+                <p>2020-Présent</p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MES SATGES</h3>
+              <!--SOFT SKILLS-->
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Juillet 2021 - Aout 2021 :
+                Stage d'observation à CoEx ingénierie (Cabinet Topographe de Monsieur Lazrak Said)</li>
+                <li>May 2022 :
+                Stage de professionalisme organisé par le dépratement de la filière.</li>
+                <li>Septembre 2022 :
+                Stage du cadastre et de la conservation foncière</li>
+            </div>
+             <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">COMPÉTANCES</h3>
+              <!--SKILLS-->
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Langue Arabe (langue mère)</li>
+                <li>Langue Française (intérmédiaire)</li>
+                <li>Langue Anglaise (intérmédiare)</li>
+                <li>Niveau intermediare en manipulation des logiciels :</li>
+                <li>Autocad + Covadis + Arcgis/Qgis</li>
+                <li>Excel + SQL</li>
+                <li>TBC (Trimble)</li>
+            </div>
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MES LOISIRS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Lecture (Romans, Articles, Magazines...)</li>
+                  <li>Documentaires</li>
+                  <li>Chess</li>
+                  <li>Cinema</li>
+                  <li>Voyages</li>
+                </ul>
+            </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MON CONTACT</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Nom et Prénom: MERYEM HARIB</p>
+              <p>Adresse: 05, Rue Slimania, Hay Ennasr, Berkane</p>
+              <p>Téléphone: +212 762687065</p>
+              <p>E-mail: meryemharib@gmail.com</p>
+              <p>--------haribmeryem@iav.ac.ma</p>
+            </div>
+          </div>
